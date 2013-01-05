@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ControladorTempo.h"
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <ControladorTempoDelegate>
+{
+    IBOutlet UILabel *statusContagem;
+    IBOutlet UILabel *contagem;
+    
+    ControladorTempo *controlador;
+}
+
+
+-(IBAction)iniciarClicado:(id)sender;
 
 @end

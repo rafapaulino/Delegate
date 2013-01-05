@@ -21,6 +21,7 @@
 		6A0CC41A15E67428007F5FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0CC3F815E67427007F5FAD /* Foundation.framework */; };
 		6A0CC42215E67428007F5FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0CC42015E67428007F5FAD /* InfoPlist.strings */; };
 		6A0CC42515E67428007F5FAD /* DelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC42415E67428007F5FAD /* DelegateTests.m */; };
+		6A0CC43015E6744E007F5FAD /* ControladorTempo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC42F15E6744E007F5FAD /* ControladorTempo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6A0CC42115E67428007F5FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A0CC42315E67428007F5FAD /* DelegateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateTests.h; sourceTree = "<group>"; };
 		6A0CC42415E67428007F5FAD /* DelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateTests.m; sourceTree = "<group>"; };
+		6A0CC42E15E6744E007F5FAD /* ControladorTempo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControladorTempo.h; sourceTree = "<group>"; };
+		6A0CC42F15E6744E007F5FAD /* ControladorTempo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControladorTempo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		6A0CC3E715E67427007F5FAD = {
 			isa = PBXGroup;
 			children = (
+				6A0CC42E15E6744E007F5FAD /* ControladorTempo.h */,
+				6A0CC42F15E6744E007F5FAD /* ControladorTempo.m */,
 				6A0CC3FC15E67427007F5FAD /* Delegate */,
 				6A0CC41D15E67428007F5FAD /* DelegateTests */,
 				6A0CC3F515E67427007F5FAD /* Frameworks */,
@@ -266,6 +271,7 @@
 				6A0CC40315E67427007F5FAD /* main.m in Sources */,
 				6A0CC40715E67427007F5FAD /* PrincipalAppDelegate.m in Sources */,
 				6A0CC41015E67427007F5FAD /* PrincipalViewController.m in Sources */,
+				6A0CC43015E6744E007F5FAD /* ControladorTempo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

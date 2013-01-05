@@ -14,9 +14,29 @@
 
 @implementation PrincipalViewController
 
+-(void) textoStatusDeveSerAlterado:(NSString*)novoTexto{
+    //atualizando o texto da label
+    statusContagem.text = novoTexto;
+}
+
+-(void) textoContadorDeveSerAlterado:(NSString*)novaContagem{
+    //atualizando o texto da label
+    contagem.text = novaContagem;
+}
+
+-(IBAction)iniciarClicado:(id)sender
+{
+    //inicio do processo
+    [controlador iniciouContagem];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    controlador = [[ControladorTempo alloc] init];
+    controlador.delegate = self;
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
